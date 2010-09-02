@@ -34,3 +34,6 @@
 [submodule "bundle/vimerl"]
 	path = bundle/vimerl
 	url = http://github.com/oscarh/vimerl.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = http://github.com/tpope/vim-surround.git
