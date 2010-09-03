@@ -109,9 +109,6 @@ set tabstop=2
 " Autotag
 source ~/.vim/bundle/autotag/autotag.vim
 
-" \t for fuzzy find file
-map <Leader>t :FufFile **/
-
 " Copy rather than rename for backups. This means stuff like transmit upload
 " triggers will work.
 set backupcopy=yes
@@ -161,4 +158,7 @@ let g:syntastic_enable_signs=1
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+" For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
+autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
