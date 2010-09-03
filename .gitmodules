@@ -37,3 +37,9 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = http://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = http://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = http://github.com/hallison/vim-markdown.git
