@@ -61,3 +61,6 @@
 [submodule "bundle/vim-makegreen"]
 	path = bundle/vim-makegreen
 	url = http://github.com/reinh/vim-makegreen.git
+[submodule "bundle/yaml-vim"]
+	path = bundle/yaml-vim
+	url = http://github.com/ingydotnet/yaml-vim.git
