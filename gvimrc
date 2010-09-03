@@ -52,3 +52,8 @@ set guioptions=
 
 " Set font. TODO - what happens in gvim?
 set guifont=Monaco:h12
+
+if has("gui_macvim")
+   macmenu &File.New\ Tab key=<nop>
+   map <D-t> <Plug>PeepOpen
+end
