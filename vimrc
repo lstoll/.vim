@@ -155,12 +155,15 @@ set directory=~/.vim_backups//,.,/tmp//
 " Auto syntax checking
 let g:syntastic_enable_signs=1
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+
+" Status Line
+set statusline=%F%m%r%h%w\ 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*\ 
+set statusline+=[%l,%v][%p%%]\ 
 
 " Completion
 set ofu=syntaxcomplete#Complete
