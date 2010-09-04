@@ -64,3 +64,6 @@
 [submodule "bundle/yaml-vim"]
 	path = bundle/yaml-vim
 	url = http://github.com/ingydotnet/yaml-vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = http://github.com/ervandew/supertab.git
