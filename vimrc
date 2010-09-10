@@ -159,11 +159,17 @@ let g:syntastic_enable_signs=1
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
 
 " Status Line
-set statusline=%F%m%r%h%w\ 
+"set statusline=%F%m%r%h%w\ 
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*\ 
+"set statusline+=[%l,%v][%p%%]\ 
+
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*\ 
-set statusline+=[%l,%v][%p%%]\ 
+set statusline+=%{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Completion
 set ofu=syntaxcomplete#Complete
