@@ -180,3 +180,21 @@ inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
 inoremap <expr> <M-,> pumvisible() ? '<C-n>' :
   \ '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'`
 let g:SuperTabCrMapping=0
+
+" LustyExplorer wants this.
+set hidden
+
+" change the mapleader from \ to ,
+let mapleader=","
+
+" More convenient windows and lusty bindings
+map <C-k> <C-w><Up>
+map <C-j> <C-w><Down>
+map <C-l> <C-w><Right>
+map <C-h> <C-w><Left>
+
+map <Leader>b :LustyBufferExplorer<Return>
+map <Leader>f :LustyFilesystemExplorer<Return>
+map <Leader>r :LustyFilesystemExplorerFromHere<Return>
+map <Leader>g :LustyBufferGrep<Return>
+map <Leader>j :LustyJuggler<Return>
