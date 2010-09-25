@@ -187,6 +187,9 @@ set hidden
 " change the mapleader from \ to ,
 let mapleader=","
 
+" Command-T on ,m
+map <Leader>m :CommandT<Return>
+
 " More convenient windows and lusty bindings
 map <C-k> <C-w><Up>
 map <C-j> <C-w><Down>
