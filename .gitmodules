@@ -73,3 +73,6 @@
 [submodule "bundle/command-t"]
 	path = bundle/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "bundle/cocoa"]
+	path = bundle/cocoa
+	url = http://github.com/msanders/cocoa.vim.git
