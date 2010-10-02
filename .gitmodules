@@ -76,3 +76,6 @@
 [submodule "bundle/cocoa"]
 	path = bundle/cocoa
 	url = http://github.com/msanders/cocoa.vim.git
+[submodule "bundle/scala-vim-support"]
+	path = bundle/scala-vim-support
+	url = http://github.com/rosstimson/scala-vim-support.git
