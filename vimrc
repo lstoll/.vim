@@ -201,3 +201,6 @@ map <Leader>f :LustyFilesystemExplorer<Return>
 map <Leader>r :LustyFilesystemExplorerFromHere<Return>
 map <Leader>g :LustyBufferGrep<Return>
 map <Leader>j :LustyJuggler<Return>
+
+" scaml
+autocmd BufNewFile,BufRead *.scaml setf haml
