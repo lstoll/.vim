@@ -5,8 +5,8 @@ My .vim files.
 Notes
 =====
 
-You will need to run rake make in bundle/command-t . Make sure to use the ruby
-that vim is linked with!
+You will need to run 'rake make' in bundle/command-t . Make sure to use the ruby
+that vim is linked with! (probably with 'rvm use system')
 
 Key Bindings
 ============
